@@ -156,7 +156,7 @@ Prefab:
         type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 1599961253}
+      objectReference: {fileID: 1858857431}
     - target: {fileID: 4249060311757736, guid: 40da8a1b3b26ba743b892d890b95a9f9, type: 2}
       propertyPath: m_LocalScale.x
       value: 2
@@ -426,7 +426,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4587520633816736, guid: d29bc40b7f3df26479d6a0aac211c355,
     type: 2}
   m_PrefabInternal: {fileID: 1528746065}
---- !u!21 &1599961253
+--- !u!21 &1858857431
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0

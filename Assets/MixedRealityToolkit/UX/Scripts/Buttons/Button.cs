@@ -126,6 +126,7 @@ namespace MixedRealityToolkit.UX.Buttons
                     // Set state to Pressed
                     ButtonStateEnum newState = ButtonStateEnum.Pressed;
                     this.OnStateChange(newState);
+                    eventData.Use();
                 }
             }
         }
@@ -141,6 +142,7 @@ namespace MixedRealityToolkit.UX.Buttons
                 if (ButtonPressFilter == InteractionSourcePressInfo.None || ButtonPressFilter == eventData.PressType)
                 {
                     DoButtonReleased();
+                    eventData.Use();
                 }
             }
         }
@@ -156,6 +158,7 @@ namespace MixedRealityToolkit.UX.Buttons
                 if (ButtonPressFilter == InteractionSourcePressInfo.None || ButtonPressFilter == eventData.PressType)
                 {
                     DoButtonPressed(true);
+                    eventData.Use();
                 }
             }
         }
